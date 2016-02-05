@@ -20,3 +20,4 @@ for image in images:
 		image_url = image['url']
 		os.system(cmd_save_photo % (image_url,image_locate))
 os.system(clean_dumplicate)
+
