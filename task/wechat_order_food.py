@@ -27,4 +27,4 @@ postdata1 = {
 for name in name_list:
     postdata1['memo'] = name
     r2 = s.post(url_order,postdata1)
-    print r2.text
+    time.sleep(20)
